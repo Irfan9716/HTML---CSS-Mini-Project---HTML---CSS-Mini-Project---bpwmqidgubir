@@ -208,13 +208,21 @@
   background-image: url("https://static1.bigstockphoto.com/3/0/3/large2/303489553.jpg");
   background-size: cover;
 }
+.payment-container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
 .payment-heading{
   font-family: "Roboto";
   font-size: 30px;
   text-align: center;
 }
-form{
-  width: 600px;
+.main{
+  margin-top: 0px;
+}
+.form{
+  width: 700px;
   padding: 20px;
   margin: 100px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -228,9 +236,7 @@ form{
   border-radius: 15px;
   box-sizing:border-box ;
 }
-.card{
-  display: inline-block;
-}
+
 .box2{
   padding: 10px;
   margin: 10px 0 15px 0;
