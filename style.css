@@ -204,3 +204,47 @@
     font-family: "Roboto";
     font-size: 14px;
   }
+.bg-container{
+  background-image: url("https://static1.bigstockphoto.com/3/0/3/large2/303489553.jpg");
+  background-size: cover;
+}
+.payment-heading{
+  font-family: "Roboto";
+  font-size: 30px;
+  text-align: center;
+}
+form{
+  width: 600px;
+  padding: 20px;
+  margin: 100px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #e3ebee;
+}
+.box1{
+  width:100% ;
+  padding: 10px;
+  margin: 10px 0 15px 0;
+  border: none;
+  border-radius: 15px;
+  box-sizing:border-box ;
+}
+.card{
+  display: inline-block;
+}
+.box2{
+  padding: 10px;
+  margin: 10px 0 15px 0;
+  border: none;
+  border-radius: 15px;
+}
+.button{
+  color: #e3ebee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  width:48% ;
+  padding: 15px;
+  border: none;
+  border-radius:10px;
+  background-color:rgb(18, 175, 18);
+}
