@@ -205,8 +205,10 @@
     font-size: 14px;
   }
 .bg-container{
-  background-image: url("https://static1.bigstockphoto.com/3/0/3/large2/303489553.jpg");
+  background-image: url("https://res.cloudinary.com/dkmjhshwo/image/upload/v1666322089/payment-BG_fuypzb.jpg");
   background-size: cover;
+  height: 90%;
+  min-width: fit-content;
 }
 .payment-container{
   display: flex;
@@ -227,6 +229,7 @@
   margin: 100px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   background-color: #e3ebee;
+  border-radius: 10px;
 }
 .box1{
   width:100% ;
